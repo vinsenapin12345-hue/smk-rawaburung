@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK RAWABURUNG - Mencetak Generasi Digital</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">
+                <i class="fas fa-graduation-cap"></i> SMK<span>RAWABURUNG</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#beranda" class="active"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="#profil"><i class="fas fa-user-tie"></i> Profil</a></li>
+                <li><a href="#jurusan"><i class="fas fa-book-open"></i> Jurusan</a></li>
+                <li><a href="#kegiatan"><i class="fas fa-calendar-alt"></i> Kegiatan</a></li>
+                <li><a href="#ppdb" class="btn-ppdb-nav">PPDB 2026</a></li>
+                <!-- Tombol Dark Mode Toggle -->
+<button id="themeToggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+    <i class="fas fa-moon icon-moon"></i>
+    <i class="fas fa-sun icon-sun"></i>
+</button>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+  <!-- =========================================
+         SECTION 1: BERANDA (Hero Upgraded)
+    ========================================== -->
+    <section id="beranda" class="hero">
+        <!-- Hiasan Background Glow -->
+        <div class="hero-shape shape-1"></div>
+        <div class="hero-shape shape-2"></div>
+
+        <div class="container hero-container">
+            <!-- SISI KIRI: Teks & Tombol Utama -->
+            <div class="hero-content" aos="fade-right">
+                <div class="badge-hero">
+                    <span class="badge-pulse"></span>
+                    <span>#1 Digital School in Town</span>
+                </div>
+                
+                <h1>Cetak Generasi Unggul di Bidang <br><span class="typing-text"></span></h1>
+                <p>Kami memadukan kurikulum berbasis industri, fasilitas teknologi terkini, dan pembentukan karakter untuk menyiapkan lulusan yang siap bersaing global.</p>
+                
+                <div class="hero-btns">
+                    <a href="https://wa.me/628881148268?text=Halo%20Admin,%20saya%20ingin%20mendaftar%20di%20SMK%20Nusantara" class="btn btn-primary" target="_blank">Daftar Sekarang <i class="fas fa-arrow-right"></i></a>
+                    <a href="#profil" class="btn btn-secondary"><i class="fas fa-play-circle"></i> Jelajahi Profil</a>
+                </div>
+
+                <!-- Keunggulan Cepat -->
+                <div class="hero-quick-stats">
+                    <div class="qs-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>100% Praktik Industri</span>
+                    </div>
+                    <div class="qs-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Sertifikasi Nasional</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SISI KANAN: Visual & Floating Cards Interaktif -->
+            <div class="hero-visual" aos="fade-left">
+                <div class="hero-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800" alt="Siswa Belajar Komputer" class="hero-main-img">
+                    
+                    <!-- Floating Card 1: Akreditasi -->
+                    <div class="floating-card card-badge">
+                        <div class="icon-box"><i class="fas fa-star"></i></div>
+                        <div>
+                            <h4>Akreditasi A</h4>
+                            <p>Unggul & Terverifikasi</p>
+                        </div>
+                    </div>
+
+                    <!-- Floating Card 2: Penyaluran Kerja -->
+                    <div class="floating-card card-users">
+                        <div class="avatar-group">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                        <div>
+                            <h4>98% Tersalurkan</h4>
+                            <p>Kerja Sebelum Wisuda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- =========================================
+         SECTION 2: PROFIL (Upgraded & Interactive)
+    ========================================== -->
+    <section id="profil" class="profil">
+        <div class="container">
+            <div class="profil-grid" aos="fade-up">
+                
+                <!-- SISI KIRI: Visual & Badge Floating -->
+                <div class="profil-media">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800" alt="Gedung & Kegiatan Kampus SMK Nusantara" class="main-img">
+                        <div class="experience-badge">
+                            <span class="number">15+</span>
+                            <span class="text">Tahun Mendidik & Berinovasi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SISI KANAN: Tab Informasi & Visi Misi -->
+                <div class="profil-content">
+                    <span class="badge-sub">Tentang Sekolah Kami</span>
+                    <h2>Menciptakan Talenta Digital Masa Depan yang Siap Kerja</h2>
+                    
+                    <!-- TAB BUTTONS -->
+                    <div class="profil-tabs">
+                        <button class="tab-btn active" data-tab="tentang">Tentang</button>
+                        <button class="tab-btn" data-tab="visi">Visi & Misi</button>
+                        <button class="tab-btn" data-tab="keunggulan">Mengapa Kami?</button>
+                    </div>
+
+                    <!-- TAB CONTENT -->
+                    <div class="tab-contents">
+                        <!-- Content 1: Tentang -->
+                        <div class="tab-pane active" id="tab-tentang">
+                            <p>SMK RAWABURUNG didirikan untuk menjawab tantangan industri digital modern. Kami menggabungkan kurikulum berbasis standar industri dengan praktik kerja nyata agar lulusan memiliki daya saing global.</p>
+                            <ul class="check-list">
+                                <li><i class="fas fa-check-circle"></i> Kurikulum berbasis kebutuhan Dunia Usaha & Industri (DUDI)</li>
+                                <li><i class="fas fa-check-circle"></i> Pengajar dari praktisi profesional & akademisi berpengalaman</li>
+                            </ul>
+                        </div>
+
+                        <!-- Content 2: Visi Misi -->
+                        <div class="tab-pane" id="tab-visi">
+                            <div class="visi-misi-box">
+                                <h4><i class="fas fa-eye"></i> Visi</h4>
+                                <p>Menjadi pusat pendidikan kejuruan teknologi digital terdepan di Indonesia pada tahun 2030.</p>
+                                <h4><i class="fas fa-bullseye"></i> Misi</h4>
+                                <p>Menyelenggarakan pembelajaran berbasis proyek (*Project Based Learning*) serta membangun mental kewirausahaan berbasis teknologi.</p>
+                            </div>
+                        </div>
+
+                        <!-- Content 3: Keunggulan -->
+                        <div class="tab-pane" id="tab-keunggulan">
+                            <p>Keunggulan utama yang membuat orang tua dan calon siswa memercayakan masa depannya kepada kami:</p>
+                            <div class="mini-features">
+                                <div class="mf-item"><i class="fas fa-certificate"></i> Cert. Internasional</div>
+                                <div class="mf-item"><i class="fas fa-laptop-code"></i> Lab Komputer Moderen</div>
+                                <div class="mf-item"><i class="fas fa-handshake"></i> BKK Penyaluran Kerja</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =========================================
+         SECTION: COUNTER STATISTIK
+    ========================================== -->
+    <section class="counter-section">
+        <div class="container">
+            <div class="counter-grid" aos="fade-up">
+                <!-- Counter 1 -->
+                <div class="counter-box">
+                    <div class="counter-icon"><i class="fas fa-user-graduate"></i></div>
+                    <div class="counter-number" data-target="1250">829</div>
+                    <p class="counter-label">Siswa Aktif</p>
+                </div>
+                <!-- Counter 2 -->
+                <div class="counter-box">
+                    <div class="counter-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="counter-number" data-target="98">99</div>
+                    <p class="counter-label">% Serapan Kerja</p>
+                </div>
+                <!-- Counter 3 -->
+                <div class="counter-box">
+                    <div class="counter-icon"><i class="fas fa-building"></i></div>
+                    <div class="counter-number" data-target="50">60</div>
+                    <p class="counter-label">Mitra Industri</p>
+                </div>
+                <!-- Counter 4 -->
+                <div class="counter-box">
+                    <div class="counter-icon"><i class="fas fa-award"></i></div>
+                    <div class="counter-number" data-target="15">1110</div>
+                    <p class="counter-label">Penghargaan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- =========================================
+     SECTION 3: JURUSAN (Filtered)
+========================================== -->
+<section id="jurusan" class="jurusan">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Program Keahlian Unggulan</h2>
+            <p>Pilih jurusan sesuai dengan passion dan cita-cita karirmu</p>
+        </div>
+
+        <!-- TOMBOL FILTER -->
+        <div class="jurusan-filter">
+            <button class="filter-btn active" data-filter="all">Semua Jurusan</button>
+            <button class="filter-btn" data-filter="teknologi">Teknologi & IT</button>
+            <button class="filter-btn" data-filter="bisnis">Bisnis & Manajemen</button>
+        </div>
+
+        <!-- GRID KARTU JURUSAN -->
+        <div class="jurusan-grid">
+            
+            <!-- Kartu 1: IT -->
+            <div class="jurusan-card" data-category="teknologi">
+                <div class="card-icon"><i class="fas fa-code"></i></div>
+                <h3>Rekayasa Perangkat Lunak</h3>
+                <p>Belajar pemrograman web, aplikasi mobile, dan pengujian perangkat lunak standar industri.</p>
+            </div>
+
+            <!-- Kartu 2: IT -->
+            <div class="jurusan-card" data-category="teknologi">
+                <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+                <h3>Teknik Komputer & Jaringan</h3>
+                <p>Menguasai administrasi server, keamanan siber (cyber security), dan infrastruktur jaringan.</p>
+            </div>
+
+            <!-- Kartu 3: Bisnis -->
+            <div class="jurusan-card" data-category="bisnis">
+                <div class="card-icon"><i class="fas fa-bullhorn"></i></div>
+                <h3>Pemasaran Digital</h3>
+                <p>Mempelajari strategi SEO, konten kreatif, social media management, dan e-commerce.</p>
+            </div>
+
+            <!-- Kartu 4: Bisnis -->
+            <div class="jurusan-card" data-category="bisnis">
+                <div class="card-icon"><i class="fas fa-calculator"></i></div>
+                <h3>Akuntansi & Keuangan</h3>
+                <p>Pengelolaan keuangan berbasis software akuntansi modern dan perbankan digital.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <section id="kegiatan" class="kegiatan">
+        <div class="container">
+            <div class="section-header" aos="fade-up">
+                <h2>Galeri Kegiatan</h2>
+                <p>Keseruan belajar dan berkreasi di SMK RAWABURUNG.</p>
+            </div>
+            <div class="kegiatan-grid">
+                <div class="kegiatan-item" aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500" alt="Praktik Lab">
+                    <div class="kegiatan-info">
+                        <h4>Praktik Coding Modern</h4>
+                    </div>
+                </div>
+                <div class="kegiatan-item" aos="fade-up" aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1526976668912-1a811878dd37?q=80&w=500" alt="Olahraga">
+                    <div class="kegiatan-info">
+                        <h4>Turnamen Futsal Sekolah</h4>
+                    </div>
+                </div>
+                <div class="kegiatan-item" aos="fade-up" aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=500" alt="Seminar">
+                    <div class="kegiatan-info">
+                        <h4>Seminar Tech Industry</h4>
+                    </div>
+                </div>
+                <div class="kegiatan-item" aos="fade-up" aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?q=80&w=500" alt="Seni">
+                    <div class="kegiatan-info">
+                        <h4>Pentas Seni Tahunan</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================================
+         SECTION: TESTIMONI ALUMNI
+    ========================================== -->
+    <section id="testimoni" class="testimoni">
+        <div class="container">
+            <div class="section-header" aos="fade-up">
+                <h2>Kisah Sukses Alumni</h2>
+                <p>Jejak langkah lulusan SMK Nusantara di dunia kerja dan industri.</p>
+            </div>
+            <div class="testimoni-grid" aos="fade-up" aos-delay="100">
+                <div class="testimoni-card">
+                    <div class="alumni-info">
+                        <img src="c:\Users\Hype AMD\Pictures\Screenshots\Screenshot 2026-01-07 190950.png" alt="Foto Alumni 1">
+                        <div>
+                            <h4>ROLAN</h4>
+                            <span>Alumni PPLG (2023) - Frontend Dev @ TechCorp</span>
+                        </div>
+                    </div>
+                    <p>"Belajar di SMK Nusantara bikin aku siap kerja secara praktik dan mental. Fasilitas lab-nya lengkap banget!"</p>
+                </div>
+                <div class="testimoni-card">
+                    <div class="alumni-info">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200" alt="Foto Alumni 2">
+                        <div>
+                            <h4>Budi Pratama</h4>
+                            <span>Alumni TJKT (2022) - Network Engineer</span>
+                        </div>
+                    </div>
+                    <p>"Program penyaluran kerja (BKK) sekolah benar-benar terbukti. Sebelum wisuda, aku sudah diterima kerja!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ppdb" class="ppdb">
+        <div class="container">
+            <div class="ppdb-container" aos="zoom-out">
+                <div class="ppdb-content">
+                    <h3>🚀 PPDB 2026/2027 Telah Dibuka!</h3>
+                    <p>Jangan lewatkan kesempatan bergabung dengan sekolah digital terbaik. Kuota terbatas.</p>
+                </div>
+                <div class="ppdb-action">
+                    <a href="https://wa.me/628881148268?text=Halo%20Admin,%20saya%20ingin%20mendaftar%20PPDB%20SMK%20Nusantara" target="_blank" rel="noopener noreferrer" class="btn btn-ppdb-large" id="btnDaftar">Daftar Sekarang <i class="fas fa-paper-plane"></i></a>
+                    <a href="#" class="ppdb-link">Lihat Alur & Syarat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================================
+         SECTION: KONTAK & LOKASI
+    ========================================== -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <div class="section-header" aos="fade-up">
+                <h2>Hubungi & Kunjungi Kami</h2>
+                <p>Kami siap membantu menjawab pertanyaan seputar pendaftaran dan informasi sekolah.</p>
+            </div>
+
+            <div class="kontak-wrapper" aos="fade-up" aos-delay="100">
+                <!-- Info & Google Maps -->
+                <div class="kontak-info">
+                    <h3>Lokasi Sekolah</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Jl. parimeter No. 08, Kota TANGGERANG, Indonesia 24</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@smkrawaburung.sch.id</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+62 888-1148-268</p>
+                    </div>
+
+                    <!-- Embed Google Maps -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15868.784743268428!2d106.65349722465082!3d-6.104263565913462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a024df0226149%3A0xd3b7ca804f2ef834!2sRw.%20Burung%2C%20Kec.%20Kosambi%2C%20Kabupaten%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1788448373029!5m2!1sid!2sid"
+                            width="100%" 
+                            height="220" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Formulir Pesan -->
+                <div class="kontak-form">
+                    <h3>Kirim Pesan Ringkas</h3>
+                    <form id="formPesan">
+                        <div class="form-group">
+                            <label for="namaPesan">Nama Lengkap</label>
+                            <input type="text" id="namaPesan" placeholder="Contoh: Ahmad Fauzi" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailPesan">Email / No. WhatsApp</label>
+                            <input type="text" id="emailPesan" placeholder="0812xxxx atau email@domain.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="isiPesan">Pesan / Pertanyaan</label>
+                            <textarea id="isiPesan" rows="4" placeholder="Tuliskan pertanyaan Anda..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================================
+     SECTION: FAQ (Pertanyaan Sering Diajukan)
+========================================== -->
+<section id="faq" class="faq">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Pertanyaan Sering Diajukan (FAQ)</h2>
+            <p>Informasi cepat mengenai pendaftaran dan sistem belajar di SMK Nusantara</p>
+        </div>
+        <div class="faq-wrapper">
+            <div class="faq-item">
+                <button class="faq-question">
+                    Kapan Pendaftaran PPDB Gelombang 1 Dibuka? 
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Pendaftaran Gelombang 1 dibuka mulai bulan ini hingga kuota 50 siswa pertama terpenuhi. Anda bisa mendaftar secara online melalui WhatsApp atau datang langsung ke sekretariat.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Apakah Ada Program Beasiswa? 
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Ya, kami menyediakan Beasiswa Prestasi Akademik, Beasiswa KIP, dan Beasiswa Bebas Uang Gedung khusus untuk pendaftar di Gelombang 1.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Bagaimana Sistem Penyaluran Kerja Lulusan? 
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>SMK Nusantara bekerja sama dengan lebih dari 30 perusahaan mitra (DUDI) untuk program magang industri dan penyaluran kerja langsung sebelum wisuda kelulusan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo-footer"><i class="fas fa-graduation-cap"></i> SMKNrawaburung</a>
+                    <p>Mencetak talenta digital masa depan.</p>
+                </div>
+                <div class="footer-contact">
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Rawaburung No. 1, Jakarta</p>
+                    <p><i class="fas fa-phone"></i> (021) 08112010</p>
+                    <p><i class="fas fa-envelope"></i> info@smkrawaburung.sch.id</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SMK RAWABURUNG. BY Vincent.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script src="script.js"></script>
+    <!-- =========================================
+         POP-UP BROSUR PPDB (MODAL DIALOG)
+    ========================================== -->
+    <div id="ppdbModal" class="modal-overlay">
+        <div class="modal-card">
+            <!-- Tombol Close (X) -->
+            <button id="closeModal" class="modal-close" aria-label="Tutup Pop-up">&times;</button>
+            
+            <!-- Header Modal / Badge Promo -->
+            <div class="modal-header-badge">
+                <i class="fas fa-bullhorn"></i> Informasi Penerimaan Siswa Baru 2026/2027
+            </div>
+
+            <!-- Konten Utama Modal -->
+            <div class="modal-body">
+                <h2>Pendaftaran PPDB Gelombang 1 Telah Dibuka!</h2>
+                <p>Dapatkan potongan biaya pendaftaran sebesar <strong>30%</strong> dan beasiswa bebas uang gedung untuk 50 pendaftar pertama.</p>
+                
+                <ul class="modal-features">
+                    <li><i class="fas fa-check-circle"></i> Tanpa Tes Tulis (Jalur Prestasi)</li>
+                    <li><i class="fas fa-check-circle"></i> Gratis Sertifikasi Komputer Internasional</li>
+                    <li><i class="fas fa-check-circle"></i> Penyaluran Kerja Langsung ke Mitra DUDI</li>
+                </ul>
+
+                <!-- Tombol Aksi -->
+                <div class="modal-actions">
+                    <a href="https://wa.me/628881148268?text=Halo%20Admin,%20saya%20ingin%20bertanya%20info%20PPDB%20Gelombang%201" 
+                       class="btn btn-primary modal-btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Daftar Sekarang (WhatsApp)
+                    </a>
+                    <button id="dismissModal" class="btn-dismiss">Nanti Saja</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/628881148268?text=Halo%20Admin,%20saya%20ingin%20bertanya%20mengenai%20pendaftaran%20SMK%20Nusantara" 
+   class="floating-wa" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   aria-label="Chat WhatsApp Admin">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip">Chat Admin PPDB</span>
+</a>
+<!-- BACK TO TOP BUTTON -->
+<button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
+    <i class="fas fa-arrow-up"></i>
+</button>
+</body>
+</html>
